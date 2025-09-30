@@ -4,7 +4,7 @@ import ScoreCircle from '~/components/ScoreCircle';
 
 
 
-const ResumeCard = ({ resume: { id, companyName, jobTitle, feedback, imagePath}, }: { resume: Resume }): React.ReactElement => {
+const ResumeCard = ({ resume: { id, companyName, jobTitle, feedback, imagePath}, }: { resume: Resume }) => {
   return (
     <Link
       to={`/resume/${id}`}
